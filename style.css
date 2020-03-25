@@ -1,0 +1,129 @@
+body {
+  padding: 2em;
+}
+
+a {
+  text-decoration: none;
+  color: #d3f792;
+  font-size: 1em;
+  margin-bottom: 1em;
+}
+
+img {
+  margin-top: 1em;
+}
+
+h1 {
+  font-size: 1.5em;
+  text-transform: uppercase;
+  color: #1B3409;
+}
+
+h2 {
+  font-size: 1em;
+  text-transform: uppercase;
+  color: #9eaa96;
+}
+
+p {
+  font-weight: 300;
+  color: #66B032;
+  font-size: 1.3em;
+  line-height: 1em;
+}
+
+header {
+  background-color: #66B032;
+  color: #f9fdf3;
+  font-size: 2em;
+  padding: .3em 1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header span {
+  padding-left: .5em;
+  font-size: .3em;
+}
+
+.hero {
+  min-height: 50vh;
+  background-color: #f8e9cf;
+}
+
+.banner p {
+  margin: 1em 0;
+  font-family: "Raleway", sans-serif;
+  color: #9eaa96;
+  line-height: 1.5em;
+  font-weight: 300;
+  font-size: 1.7em;
+}
+
+footer {
+  margin-top: 3.5em;
+  background-color: #9eaa96;
+  color: "Open Sans", sans-serif;
+  padding: .4em 1em;
+  max-height: 10em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer .sociallinks a {
+  list-style-type: none;
+}
+
+footer .footdes {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+footer .footdes p {
+  display: block;
+  line-height: 1em;
+  color: #d3f792;
+  font-size: 1em;
+}
+
+footer .logo {
+  color: #d3f792;
+  font-size: 2em;
+  border: thin red solid;
+  display: inline-block;
+}
+
+/*All devices and mobile phone*/
+/*for small tablet - inclusive*/
+@media only screen and (min-width: 35em) {
+  .services {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .services .box {
+    border: thin red solid;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 30%;
+            flex: 0 0 30%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: .4em;
+  }
+  .services .eco {
+    display: block;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 30%;
+            flex: 0 0 30%;
+  }
+  /*for tablet - inclusive*/
+}
+/*# sourceMappingURL=style.css.map */

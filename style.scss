@@ -1,0 +1,157 @@
+$font-headline: 'Raleway', sans-serif;
+$font-bodytext: 'Open Sans', sans-serif;
+
+$background-color:#f9fdf3;
+$title-color: rgb(211, 247, 146);
+$strong-color: #1B3409;
+$subtitle-color:#66B032;
+$secondbackground-color:rgb(248, 233, 207);
+$copy-color:rgb(158, 170, 150);
+
+body{
+    padding:2em;
+}
+
+a{
+    text-decoration: none;
+    color:$title-color;
+    font-size: 1em;
+    margin-bottom:1em;
+}
+
+img{
+    margin-top: 1em;
+    
+}
+
+
+h1{
+    font-size: 1.5em;
+    text-transform: uppercase;
+    color: $strong-color;
+
+}
+h2{
+    font-size: 1em;
+    text-transform: uppercase;
+    color: $copy-color;
+}
+
+
+p{
+    font-weight: 300;
+    color:$subtitle-color;
+    font-size: 1.3em;
+    line-height: 1em;
+}
+
+header{
+    background-color: $subtitle-color;
+    color:$background-color;
+    font-size: 2em;
+    padding: .3em 1em;
+    // min-height:50vh;
+    // border: thin red solid;
+    display: flex;
+    justify-content: space-between;
+
+    span{
+        padding-left:.5em;
+        font-size: .3em;
+    }
+
+}
+
+.hero{
+    min-height:50vh;
+    background-color: $secondbackground-color;
+
+}
+.banner{
+    p{
+        margin:1em 0;
+        font-family: $font-headline;
+        color: $copy-color;
+        line-height: 1.5em;
+        font-weight: 300;
+        font-size: 1.7em;
+    }
+
+}
+
+footer{
+    margin-top: 3.5em;
+    background-color:$copy-color;
+    color: $font-bodytext;
+    padding:.4em 1em;
+    max-height:10em;
+    display: flex;
+    border: thin red solid;
+    justify-content: space-between;
+   
+    .sociallinks .li{
+        border: thin red solid;
+}
+
+    .footdes {
+      
+
+        p{  display: block;
+            line-height:.5em;
+            color:$title-color;
+            font-size: .5em;
+            // border:thin red solid;
+            // justify-content: flex-start;
+        
+          
+        }
+  
+    }
+    .logo{
+        color:$title-color;
+        font-size: 2em;
+        padding-top: 3em;
+        border:thin red solid;
+       
+    
+    }
+   
+}
+/*All devices and mobile phone*/
+
+
+/*for small tablet - inclusive*/
+
+@media only screen and (min-width : 35em) {
+   
+    .services{
+        display: flex;
+        flex-wrap: wrap;
+        
+
+        .box{
+            border:thin red solid;  
+            flex:0 0 30%;
+            box-sizing: border-box;
+            padding: .4em;
+    }
+    .eco{
+        display: block;
+        flex:0 0 30%;
+    }
+
+}
+  
+
+
+
+
+
+
+
+/*for tablet - inclusive*/
+
+@media only screen and (min-width : 55em) {
+}
+
+}
